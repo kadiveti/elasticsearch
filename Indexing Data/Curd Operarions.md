@@ -5,8 +5,7 @@ ___
 #### To check Status of indices
 
 ````
-##### GET _cat/indices?v
-
+GET _cat/indices?v
 ````
 
 ###### Output
