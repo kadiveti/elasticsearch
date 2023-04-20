@@ -7,7 +7,6 @@ ___
 ````
 GET _cat/indices?v
 ````
-
 ###### Output
 
 |health|  status |   index      |  uuid                   |  pri | rep |  docs.count | docs.deleted  |  store.size  |   pri.store.size|
