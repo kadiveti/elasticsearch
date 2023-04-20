@@ -161,7 +161,7 @@ GET shakespeare
   }
 }
 ````
-
+#### Create Bank index with settings
 ````
 PUT bank
 {
@@ -180,11 +180,14 @@ PUT bank
   "index" : "bank"
 }
 ````
+#### Check Bank index
 ````
 GET bank
 ````
-````
+
 ###### Output
+
+````
 {
   "bank" : {
     "aliases" : { },
@@ -204,7 +207,7 @@ GET bank
   }
 }
 ````
-
+#### Check All indexes
 ````
 GET _cat/indices?v
 ````
