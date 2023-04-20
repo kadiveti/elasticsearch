@@ -83,9 +83,44 @@ GET logs
 }
 ````
 
+#### Create Mappings for Shakespeare index
+````
+PUT shakespeare
+{
+  "mappings": {
+    "properties": {
+      "speaker":{
+        "type": "keyword"
+      },
+      "play_name":{
+        "type":"keyword"
+      },
+      "line_id":{
+        "type":"integer"
+      },
+      "speech_number":{
+        "type":"integer"
+      }
+    }
+  },
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1
+  }
+}
 
+````
+###### Output
 
+````
 
+{
+  "acknowledged" : true,
+  "shards_acknowledged" : true,
+  "index" : "shakespeare"
+}
+
+````
 
 
 
