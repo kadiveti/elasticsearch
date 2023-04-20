@@ -42,24 +42,31 @@ PUT Sample-1
 }
 
 ````
-
+````
 ###### Note: Create index name with lowercase
-
+````
+````
 PUT sample-1
-
+````
 ###### Output
+
+````
 {
   "acknowledged" : true,
   "shards_acknowledged" : true,
   "index" : "sample-1"
 }
 
-
+````
 #### To check Created Index
 
+````
 GET Sample-1
+````
 
 ###### Output
+
+````
 {
   "sample-1" : {
     "aliases" : { },
@@ -78,23 +85,33 @@ GET Sample-1
     }
   }
 }
-
+````
 
 #### To Delete Index
+
+````
 DELETE sample-1
+````
 
 ###### Output
+
+````
 
 {
   "acknowledged" : true
 }
 
+````
+
 #### To check Delete Index
 
+````
 GET Sample-1
+````
 
 ###### Output
 
+````
 {
   "error" : {
     "root_cause" : [
@@ -116,3 +133,5 @@ GET Sample-1
   },
   "status" : 404
 }
+
+````
