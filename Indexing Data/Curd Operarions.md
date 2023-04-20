@@ -8,9 +8,9 @@ ___
 
 ###### Output
 
-health  status   index        uuid                     pri   rep   docs.count  docs.deleted    store.size     pri.store.size
+|health|  status   index        uuid                     pri   rep   docs.count  docs.deleted    store.size     pri.store.size
 
-green   open    .kibana_1     mym8BrtmSBu6-rh9AISQ9A   1     1     6             5              115.2kb         54.1kb
+|green |   open    .kibana_1     mym8BrtmSBu6-rh9AISQ9A   1     1     6             5              115.2kb         54.1kb
 
 #### To create an Index 
 
