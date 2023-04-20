@@ -2,7 +2,7 @@
 
 #### To check Status of indices
 
-<p style="color:red;">GET _cat/indices?v</p>
+<span style="color:orange;">Word up</span>GET _cat/indices?v</span>
 
 ###### Output
 
