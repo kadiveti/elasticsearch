@@ -1,4 +1,9 @@
+# Indexing Data with required Mappings and settings
 
+___
+#### To Create indices with geo_point(co-ordinates) for log indices
+
+````
 PUT logs
 {
   "mappings": {
@@ -17,11 +22,12 @@ PUT logs
     "number_of_replicas": 1
   }
 }
-
-
-
+````
+###### Output
+````
 {
   "acknowledged" : true,
   "shards_acknowledged" : true,
   "index" : "logs"
 }
+````
