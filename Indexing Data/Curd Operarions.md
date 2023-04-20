@@ -13,11 +13,16 @@ GET _cat/indices?v
 |------|---------|--------------|-------------------------|------|-----|-------------|---------------|--------------|-----------------|
 |green |   open  |  .kibana_1   |  mym8BrtmSBu6-rh9AISQ9A |  1   |  1  |   6         |    5          |    115.2kb   |      54.1kb     |
 
+
 #### To create an Index 
 
+````
 PUT Sample-1
+````
 
 ###### Output
+
+````
 {
   "error" : {
     "root_cause" : [
@@ -36,6 +41,7 @@ PUT Sample-1
   "status" : 400
 }
 
+````
 
 ###### Note: Create index name with lowercase
 
