@@ -42,9 +42,8 @@ PUT Sample-1
 }
 
 ````
-````
 'Note:' Create index name with lowercase
-````
+
 ````
 PUT sample-1
 ````
