@@ -45,6 +45,44 @@ GET _cat/indices?v
 |green |   open  |  logs        |  r5HFUBA2QW-LXnWkXjDsXA |  1   |  1  |   0         |    0          |    115.2kb   |      54.1kb     |
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+#### To Get the indices data
+
+````
+GET logs
+````
+###### Output
+
+````
+{
+  "logs" : {
+    "aliases" : { },
+    "mappings" : {
+      "properties" : {
+        "geo" : {
+          "properties" : {
+            "coordinates" : {
+              "type" : "geo_point"
+            }
+          }
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "creation_date" : "1682007340252",
+        "number_of_shards" : "1",
+        "number_of_replicas" : "1",
+        "uuid" : "r5HFUBA2QW-LXnWkXjDsXA",
+        "version" : {
+          "created" : "7100299"
+        },
+        "provided_name" : "logs"
+      }
+    }
+  }
+}
+````
+
 
 
 
