@@ -1,0 +1,1 @@
+# Data indexing in Elasticsearch and Curd Operation"
