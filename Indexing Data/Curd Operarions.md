@@ -17,6 +17,22 @@ GET _cat/indices?v
 #### To create an Index 
 
 ````
+PUT sample-1
+````
+###### Output
+
+````
+{
+  "acknowledged" : true,
+  "shards_acknowledged" : true,
+  "index" : "sample-1"
+}
+
+````
+
+##### Create index name with lowercase only.See example error
+
+````
 PUT Sample-1
 ````
 
@@ -43,21 +59,9 @@ PUT Sample-1
 
 ````
 
-###### Note: Create index name with lowercase
 
-````
-PUT sample-1
-````
-###### Output
 
-````
-{
-  "acknowledged" : true,
-  "shards_acknowledged" : true,
-  "index" : "sample-1"
-}
 
-````
 #### To check Created Index
 
 ````
