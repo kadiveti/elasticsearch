@@ -1,1 +1,0 @@
-# Curd and Indexing Operation
