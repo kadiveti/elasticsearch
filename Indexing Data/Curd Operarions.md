@@ -2,7 +2,7 @@
 
 #### To check Status of indices
 
-<i>GET _cat/indices?v</i>
+<p style="color:red;">GET _cat/indices?v</p>
 
 ###### Output
 
