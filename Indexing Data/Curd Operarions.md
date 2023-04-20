@@ -2,7 +2,7 @@
 
 #### To check Status of indices
 
-GET _cat/indices?v
+<b>GET _cat/indices?v</b>
 
 ###### Output
 
