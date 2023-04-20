@@ -1,3 +1,3 @@
 # elasticsearch
 
-##Sample Data is pulled from linux Academy.
+<b>Sample Data is pulled from linux Academy.</b>
