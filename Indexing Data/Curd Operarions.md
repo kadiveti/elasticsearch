@@ -1,7 +1,7 @@
 # Curd Operations
 
 
----
+___
 #### To check Status of indices
 
 <span style="color:orange;">GET _cat/indices?v</span>
