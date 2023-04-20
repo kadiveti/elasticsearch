@@ -14,6 +14,7 @@ green   open    .kibana_1     mym8BrtmSBu6-rh9AISQ9A   1     1     6            
 
 PUT Sample-1
 
+###### Output
 {
   "error" : {
     "root_cause" : [
@@ -68,5 +69,6 @@ GET Sample-1
     }
   }
 }
+
 
 
