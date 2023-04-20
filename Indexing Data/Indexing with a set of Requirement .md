@@ -121,9 +121,46 @@ PUT shakespeare
 }
 
 ````
-
-
-
+#### Check Shakespeare index
+````
+GET shakespeare
+````
+###### Output
+````
+{
+  "shakespeare" : {
+    "aliases" : { },
+    "mappings" : {
+      "properties" : {
+        "line_id" : {
+          "type" : "integer"
+        },
+        "play_name" : {
+          "type" : "keyword"
+        },
+        "speaker" : {
+          "type" : "keyword"
+        },
+        "speech_number" : {
+          "type" : "integer"
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "creation_date" : "1682009004385",
+        "number_of_shards" : "1",
+        "number_of_replicas" : "1",
+        "uuid" : "Sl91jFdgR5SNguBJINnRIg",
+        "version" : {
+          "created" : "7100299"
+        },
+        "provided_name" : "shakespeare"
+      }
+    }
+  }
+}
+````
 
 
 
