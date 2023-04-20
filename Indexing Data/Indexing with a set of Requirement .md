@@ -212,13 +212,16 @@ GET bank
 GET _cat/indices?v
 ````
 
-````
-health status index       uuid                   pri rep docs.count docs.deleted store.size pri.store.size
-green  open   bank        AHpo0TpiR2mi7kgPdR5OHg   1   1          0            0       416b           208b
-green  open   shakespeare Sl91jFdgR5SNguBJINnRIg   1   1          0            0       416b           208b
-green  open   .kibana_1   mym8BrtmSBu6-rh9AISQ9A   1   1         13           41    115.1kb         51.9kb
-green  open   logs        r5HFUBA2QW-LXnWkXjDsXA   1   1          0            0       416b           208b
-````
+###### Output
+----------------------------------------------------------------------------------------------------------------------
+|health| status | index       | uuid                   |pri |rep |docs.count |docs.deleted |store.size |pri.store.size|
+|------|--------|-------------|------------------------|----|----|-----------|-------------|-----------|--------------|
+|green | open   | bank        | AHpo0TpiR2mi7kgPdR5OHg |  1 |  1 |         0 |           0 |      416b |          208b|
+|green | open   | shakespeare | Sl91jFdgR5SNguBJINnRIg |  1 |  1 |         0 |           0 |      416b |          208b|
+|green | open   | .kibana_1   | mym8BrtmSBu6-rh9AISQ9A |  1 |  1 |        13 |          41 |   115.1kb |        51.9kb|
+|green | open   | logs        | r5HFUBA2QW-LXnWkXjDsXA |  1 |  1 |         0 |           0 |      416b |          208b|
+----------------------------------------------------------------------------------------------------------------------
+
 
 
 
