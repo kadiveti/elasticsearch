@@ -71,4 +71,39 @@ GET Sample-1
 }
 
 
+#### To Delete Index
+DELETE sample-1
 
+###### Output
+
+{
+  "acknowledged" : true
+}
+
+#### To check Delete Index
+
+GET Sample-1
+
+###### Output
+
+{
+  "error" : {
+    "root_cause" : [
+      {
+        "type" : "index_not_found_exception",
+        "reason" : "no such index [sample-1]",
+        "resource.type" : "index_or_alias",
+        "resource.id" : "sample-1",
+        "index_uuid" : "_na_",
+        "index" : "sample-1"
+      }
+    ],
+    "type" : "index_not_found_exception",
+    "reason" : "no such index [sample-1]",
+    "resource.type" : "index_or_alias",
+    "resource.id" : "sample-1",
+    "index_uuid" : "_na_",
+    "index" : "sample-1"
+  },
+  "status" : 404
+}
