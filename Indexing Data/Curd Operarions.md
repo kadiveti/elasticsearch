@@ -4,7 +4,10 @@
 ___
 #### To check Status of indices
 
-diff - *GET _cat/indices?v*
+````
+##### GET _cat/indices?v
+
+````
 
 ###### Output
 
