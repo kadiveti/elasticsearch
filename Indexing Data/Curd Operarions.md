@@ -141,19 +141,34 @@ GET Sample-1
 ````
 
 
+## Dynamics Mappings and Update Operation
 
+-----
+#### Created Index sample-1
+
+````
 PUT sample-1
+````
 
+###### Output
+
+````
 {
   "acknowledged" : true,
   "shards_acknowledged" : true,
   "index" : "sample-1"
 }
 
+````
 
+#### Get Mappings for Index sample-1
+
+````
 GET sample-1
+````
+###### Output
 
-
+````
 {
   "sample-1" : {
     "aliases" : { },
@@ -172,18 +187,24 @@ GET sample-1
     }
   }
 }
+````
 
 
+#### Adding document to an index. 
 
-# You can specify any id after doc if not specified it will generate random ID
+###### Note: You can specify any id after doc if not specified it will generate random ID
 
+````
 POST sample-1/_doc/
 {
   "firstname":"Sai",
   "secondname":"K"
 }
+````
 
+###### Output
 
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
@@ -199,10 +220,17 @@ POST sample-1/_doc/
   "_primary_term" : 1
 }
 
+````
+
+#### Get the Index mappings
+
+````
 GET sample-1
+````
 
+###### output
 
-
+````
 {
   "sample-1" : {
     "aliases" : { },
@@ -243,15 +271,27 @@ GET sample-1
   }
 }
 
+````
+
+#### Note
+````
 If we don't specify any mappings it will creating Global Dynamic Mapping.
 
 In this example it creating all text fields which is analyazed and keyword which is not analyzed
 
 firstname.keyword will gives the keyword version of firstname
 
+````
+
+#### Get all the documents in the index
+
+````
 GET sample-1/_search
+````
 
+###### Output
 
+````
 {
   "took" : 819,
   "timed_out" : false,
@@ -281,12 +321,15 @@ GET sample-1/_search
     ]
   }
 }
+````
 
+#### Get only specific document
 
+````
 GET sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
-
-
-
+````
+###### Output
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
@@ -301,21 +344,29 @@ GET sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
   }
 }
 
-If you want to remove meta data and only want to see source.
+````
 
+#### If you want to see only source
+
+````
 GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
-
+````
+###### Output
+````
 {
   "firstname" : "Sai",
   "secondname" : "K"
 }
 
-Update the document.
+````
 
-WE can do two types of update one is doc update and other one is script update.
+#### Update the document.
 
-Doc update
+###### Note: WE can do two types of update one is doc update and other one is script update.
 
+##### Doc update
+
+````
 POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
 {
   "doc":{
@@ -323,8 +374,9 @@ POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
     "middlename":"Kumar"
   }
 }
-
-
+````
+###### Output
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
@@ -340,23 +392,29 @@ POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
   "_primary_term" : 1
 }
 
+````
 
-We are here at version in document
+###### Note: Able to see increment in version and Result field gives output as Updated
 
-Result is updated
-
+````
 GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
-
+````
+###### Output
+````
 {
   "firstname" : "Sai",
   "secondname" : "kadiveti",
   "middlename" : "Kumar"
 }
+````
+#### Check how dynamic the mappings are created.
 
+````
 GET sample-1
 
-Dynamic Mappings are added to middlename
-
+````
+###### Dynamic Mappings are added to middlename
+````
 {
   "sample-1" : {
     "aliases" : { },
@@ -405,3 +463,4 @@ Dynamic Mappings are added to middlename
     }
   }
 }
+````
