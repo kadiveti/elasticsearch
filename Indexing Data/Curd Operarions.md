@@ -464,3 +464,35 @@ GET sample-1
   }
 }
 ````
+
+
+POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
+{
+  "script":{
+    "lang": "painless", 
+    "source": "ctx._source.remove('middlename')"
+  }
+}
+
+{
+  "_index" : "sample-1",
+  "_type" : "_doc",
+  "_id" : "-WFVoYcBOj-cH8rtrEuz",
+  "_version" : 3,
+  "result" : "updated",
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "failed" : 0
+  },
+  "_seq_no" : 2,
+  "_primary_term" : 1
+}
+
+
+GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
+
+{
+  "firstname" : "Sai",
+  "secondname" : "kadiveti"
+}
