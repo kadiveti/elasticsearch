@@ -496,3 +496,32 @@ GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
   "firstname" : "Sai",
   "secondname" : "kadiveti"
 }
+
+
+DELETE sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
+
+{
+  "_index" : "sample-1",
+  "_type" : "_doc",
+  "_id" : "-WFVoYcBOj-cH8rtrEuz",
+  "_version" : 4,
+  "result" : "deleted",
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "failed" : 0
+  },
+  "_seq_no" : 4,
+  "_primary_term" : 1
+}
+
+
+GET sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
+
+{
+  "_index" : "sample-1",
+  "_type" : "_doc",
+  "_id" : "-WFVoYcBOj-cH8rtrEuz",
+  "found" : false
+}
+
