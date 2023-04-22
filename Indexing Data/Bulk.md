@@ -43,5 +43,411 @@ total 14404
 {"@timestamp":"2015-05-18T12:28:25.013Z","ip":"79.1.14.87","extension":"gif","response":"200","geo":{"coordinates":{"lat":35.16531472,"lon":-107.9006142},"src":"GN","dest":"US","srcdest":"GN:US"},"@tags":["success","info"],"utc_time":"2015-05-18T12:28:25.013Z","referer":"http://www.slate.com/warning/b-alvin-drew","agent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24","clientip":"79.1.14.87","bytes":774,"host":"motion-media.theacademyofperformingartsandscience.org","request":"/canhaz/james-mcdivitt.gif","url":"https://motion-media.theacademyofperformingartsandscience.org/canhaz/james-mcdivitt.gif","@message":"79.1.14.87 - - [2015-05-18T12:28:25.013Z] \"GET /canhaz/james-mcdivitt.gif HTTP/1.1\" 200 774 \"-\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24\"","spaces":"this   is   a   thing    with lots of     spaces       wwwwoooooo","xss":"<script>console.log(\"xss\")</script>","headings":["<h3>charles-bolden</h5>","http://www.slate.com/success/barry-wilmore"],"links":["george-nelson@twitter.com","http://facebook.com/info/anatoly-solovyev","www.www.slate.com"],"relatedContent":[],"machine":{"os":"osx","ram":8589934592},"@version":"1"}
 {"index":{"_index":"logs"}}
 {"@timestamp":"2015-05-18T17:44:34.357Z","ip":"178.209.1.7","extension":"php","response":"200","geo":{"coordinates":{"lat":36.38025,"lon":-88.98547778},"src":"US","dest":"ET","srcdest":"US:ET"},"@tags":["success","security"],"utc_time":"2015-05-18T17:44:34.357Z","referer":"http://facebook.com/success/voskhod-1","agent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24","clientip":"178.209.1.7","bytes":7417,"host":"theacademyofperformingartsandscience.org","request":"/people/type:astronauts/name:john-phillips/profile","memory":296680,"phpmemory":296680,"url":"https://theacademyofperformingartsandscience.org/people/type:astronauts/name:john-phillips/profile","@message":"178.209.1.7 - - [2015-05-18T17:44:34.357Z] \"GET /people/type:astronauts/name:john-phillips/profile HTTP/1.1\" 200 7417 \"-\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24\"","spaces":"this   is   a   thing    with lots of     spaces       wwwwoooooo","xss":"<script>console.log(\"xss\")</script>","headings":["<h3>scott-parazynski</h5>","http://twitter.com/success/carl-walz"],"links":["lee-morin@www.slate.com","http://facebook.com/info/oleg-makarov","www.twitter.com"],"relatedContent":[{"url":"http://www.laweekly.com/news/entropy-at-the-french-cottage-hollywood-2368119","og:type":"article","og:title":"Entropy at the French Cottage, Hollywood","og:description":"The French Cottage hotel stood a few feet away from Sunset and Highland, near a stretch of old hotels and motels which are vanishing as steadily and unn...","og:url":"http://www.laweekly.com/news/entropy-at-the-french-cottage-hollywood-2368119","article:published_time":"2007-08-09T08:48:14-07:00","article:modified_time":"2014-10-28T15:00:07-07:00","article:section":"News","og:image":"http://images1.laweekly.com/imager/entropy-at-the-french-cottage-hollywood/u/original/2430875/img_1444.jpg","og:image:height":"480","og:image:width":"640","og:site_name":"LA Weekly","twitter:title":"Entropy at the French Cottage, Hollywood","twitter:description":"The French Cottage hotel stood a few feet away from Sunset and Highland, near a stretch of old hotels and motels which are vanishing as steadily and unn...","twitter:card":"summary","twitter:image":"http://images1.laweekly.com/imager/entropy-at-the-french-cottage-hollywood/u/original/2430875/img_1444.jpg","twitter:site":"@laweekly"}],"machine":{"os":"win 8","ram":15032385536},"@version":"1"}
-{"index":{"_index":"logs"}}
-{"@timestamp":"2015-05-18T13:04:18.120Z","ip":"118.140.92.127","extension":"jpg","response":"200","geo":{"coordinates":{"lat":35.222595,"lon":-83.41904389},"src":"BD","dest":"PK","srcdest":"BD:PK"},"@tags":["error","info"],"utc_time":"2015-05-18T13:04:18.120Z","referer":"http://www.slate.com/success/wendy-lawrence","agent":"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)","clientip":"118.140.92.127","bytes":9860,"host":"media-for-the-masses.theacademyofperformingartsandscience.org","request":"/uploads/jeremy-hansen.jpg","url":"https://media-for-the-masses.theacademyofperformingartsandscience.org/uploads/jeremy-hansen.jpg","@message":"118.140.92.127 - - [2015-05-18T13:04:18.120Z] \"GET /uploads/jeremy-hansen.jpg HTTP/1.1\" 200 9860 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)\"","spaces":"this   is   a   thing    with lots of     spaces       wwwwoooooo","xss":"<script>console.log(\"xss\")</script>","headings":["<h3>mary-weber</h5>","http://twitter.com/warning/ellen-s-baker"],"links":["g-david-low@www.slate.com","http://www.slate.com/info/mario-runco-jr-","www.www.slate.com"],"relatedContent":[{"url":"http://www.laweekly.com/arts/rain-rain-go-away-charlize-theron-wants-to-play-2371781","og:type":"article","og:title":"Rain Rain Go Away Charlize Theron Wants To Play","og:description":"LA Weekly is the definitive source of information for news, music, movies, restaurants, reviews, and events in Los Angeles.","og:url":"http://www.laweekly.com/arts/rain-rain-go-away-charlize-theron-wants-to-play-2371781","article:published_time":"2005-10-18T08:10:44-07:00","article:modified_time":"2014-11-25T18:34:34-08:00","article:section":"Arts","article:tag":"Celebrity News","og:site_name":"LA Weekly","twitter:title":"Rain Rain Go Away Charlize Theron Wants To Play","twitter:description":"LA Weekly is the definitive source of information for news, music, movies, restaurants, reviews, and events in Los Angeles.","twitter:card":"summary","twitter:site":"@laweekly"},{"url":"http://www.laweekly.com/news/camera-eye-santa-monica-and-myra-2368130","og:type":"article","og:title":"Camera Eye - Santa Monica and Myra","og:description":"All photos by Mark Mauer...","og:url":"http://www.laweekly.com/news/camera-eye-santa-monica-and-myra-2368130","article:published_time":"2007-08-12T22:41:49-07:00","article:modified_time":"2014-10-28T15:00:10-07:00","article:section":"News","article:tag":"Mark Mauer","og:image":"http://images1.laweekly.com/imager/camera-eye-santa-monica-and-myra/u/original/2430949/1632.jpg","og:image:height":"640","og:image:width":"480","og:site_name":"LA Weekly","twitter:title":"Camera Eye - Santa Monica and Myra","twitter:description":"All photos by Mark Mauer...","twitter:card":"summary","twitter:image":"http://images1.laweekly.com/imager/camera-eye-santa-monica-and-myra/u/original/2430949/1632.jpg","twitter:site":"@laweekly"},{"url":"http://www.laweekly.com/news/rime-show-at-ghettogloss-2368009","og:type":"article","og:title":"Rime Show at Ghettogloss","og:description":"Seventh Letter crew member RIME, aka Jersey Joe, will be showing new work at Ghettogloss this Friday, March 7. The show will run for a couple of weeks, ...","og:url":"http://www.laweekly.com/news/rime-show-at-ghettogloss-2368009","article:published_time":"2008-03-03T14:05:13-08:00","article:modified_time":"2014-10-28T14:59:48-07:00","article:section":"News","article:tag":"Business","og:image":"http://images1.laweekly.com/imager/rime-show-at-ghettogloss/u/original/2430136/gg08_flyer_l.jpg","og:image:height":"539","og:image:width":"792","og:site_name":"LA Weekly","twitter:title":"Rime Show at Ghettogloss","twitter:description":"Seventh Letter crew member RIME, aka Jersey Joe, will be showing new work at Ghettogloss this Friday, March 7. The show will run for a couple of weeks, ...","twitter:card":"summary","twitter:image":"http://images1.laweekly.com/imager/rime-show-at-ghettogloss/u/original/2430136/gg08_flyer_l.jpg","twitter:site":"@laweekly"},{"url":"http://www.laweekly.com/music/greetings-from-the-first-annual-marfa-film-festival-2404240","og:type":"article","og:title":"Greetings from the first annual Marfa Film Festival","og:description":"I got on a bus in Los Feliz yesterday at about 1 p.m. headed for Marfa, Texas, to attend the first annual Marfa Film Festival. If you&#039;ve been to the mov...","og:url":"http://www.laweekly.com/music/greetings-from-the-first-annual-marfa-film-festival-2404240","article:published_time":"2008-05-02T05:38:40-07:00","article:modified_time":"2014-11-27T07:22:29-08:00","article:section":"Music","og:image":"http://IMAGES1.laweekly.com/imager/greetings-from-the-first-annual-marfa-film/u/original/2466493/marfateaparty.jpg","og:image:height":"688","
+
+
+
+[root@0b77f80cbacb sample_data]# curl -H 'Content-Type: application/x-ndjson' -XPOST "http://localhost:9200/bank/_bulk?pretty" --data-binary @accounts.json > accounts_bulk.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  581k  100  344k  100  237k   156k   107k  0:00:02  0:00:02 --:--:--  263k
+
+
+
+GET bank/_search
+
+
+{
+  "took" : 806,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1000,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 1,
+          "balance" : 39225,
+          "firstname" : "Amber",
+          "lastname" : "Duke",
+          "age" : 32,
+          "gender" : "M",
+          "address" : "880 Holmes Lane",
+          "employer" : "Pyrami",
+          "email" : "amberduke@pyrami.com",
+          "city" : "Brogan",
+          "state" : "IL"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 6,
+          "balance" : 5686,
+          "firstname" : "Hattie",
+          "lastname" : "Bond",
+          "age" : 36,
+          "gender" : "M",
+          "address" : "671 Bristol Street",
+          "employer" : "Netagy",
+          "email" : "hattiebond@netagy.com",
+          "city" : "Dante",
+          "state" : "TN"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "13",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 13,
+          "balance" : 32838,
+          "firstname" : "Nanette",
+          "lastname" : "Bates",
+          "age" : 28,
+          "gender" : "F",
+          "address" : "789 Madison Street",
+          "employer" : "Quility",
+          "email" : "nanettebates@quility.com",
+          "city" : "Nogal",
+          "state" : "VA"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "18",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 18,
+          "balance" : 4180,
+          "firstname" : "Dale",
+          "lastname" : "Adams",
+          "age" : 33,
+          "gender" : "M",
+          "address" : "467 Hutchinson Court",
+          "employer" : "Boink",
+          "email" : "daleadams@boink.com",
+          "city" : "Orick",
+          "state" : "MD"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "20",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 20,
+          "balance" : 16418,
+          "firstname" : "Elinor",
+          "lastname" : "Ratliff",
+          "age" : 36,
+          "gender" : "M",
+          "address" : "282 Kings Place",
+          "employer" : "Scentric",
+          "email" : "elinorratliff@scentric.com",
+          "city" : "Ribera",
+          "state" : "WA"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "25",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 25,
+          "balance" : 40540,
+          "firstname" : "Virginia",
+          "lastname" : "Ayala",
+          "age" : 39,
+          "gender" : "F",
+          "address" : "171 Putnam Avenue",
+          "employer" : "Filodyne",
+          "email" : "virginiaayala@filodyne.com",
+          "city" : "Nicholson",
+          "state" : "PA"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "32",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 32,
+          "balance" : 48086,
+          "firstname" : "Dillard",
+          "lastname" : "Mcpherson",
+          "age" : 34,
+          "gender" : "F",
+          "address" : "702 Quentin Street",
+          "employer" : "Quailcom",
+          "email" : "dillardmcpherson@quailcom.com",
+          "city" : "Veguita",
+          "state" : "IN"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "37",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 37,
+          "balance" : 18612,
+          "firstname" : "Mcgee",
+          "lastname" : "Mooney",
+          "age" : 39,
+          "gender" : "M",
+          "address" : "826 Fillmore Place",
+          "employer" : "Reversus",
+          "email" : "mcgeemooney@reversus.com",
+          "city" : "Tooleville",
+          "state" : "OK"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "44",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 44,
+          "balance" : 34487,
+          "firstname" : "Aurelia",
+          "lastname" : "Harding",
+          "age" : 37,
+          "gender" : "M",
+          "address" : "502 Baycliff Terrace",
+          "employer" : "Orbalix",
+          "email" : "aureliaharding@orbalix.com",
+          "city" : "Yardville",
+          "state" : "DE"
+        }
+      },
+      {
+        "_index" : "bank",
+        "_type" : "_doc",
+        "_id" : "49",
+        "_score" : 1.0,
+        "_source" : {
+          "account_number" : 49,
+          "balance" : 29104,
+          "firstname" : "Fulton",
+          "lastname" : "Holt",
+          "age" : 23,
+          "gender" : "F",
+          "address" : "451 Humboldt Street",
+          "employer" : "Anocha",
+          "email" : "fultonholt@anocha.com",
+          "city" : "Sunriver",
+          "state" : "RI"
+        }
+      }
+    ]
+  }
+}
+
+
+
+
+[root@0b77f80cbacb sample_data]# curl -H 'Content-Type: application/x-ndjson' -XPOST "http://localhost:9200/shakespeare/_bulk?pretty" --data-binary @shakespeare.json > shakespeare_bulk.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16.1M  100  9.9M  100 6359k  1570k   979k  0:00:06  0:00:06 --:--:-- 2549k
+
+Add a new line in json for shakespeare to remove the error
+
+GET shakespeare/_search
+
+{
+  "took" : 991,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "0",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "act",
+          "line_id" : 1,
+          "play_name" : "Henry IV",
+          "speech_number" : "",
+          "line_number" : "",
+          "speaker" : "",
+          "text_entry" : "ACT I"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "scene",
+          "line_id" : 2,
+          "play_name" : "Henry IV",
+          "speech_number" : "",
+          "line_number" : "",
+          "speaker" : "",
+          "text_entry" : "SCENE I. London. The palace."
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 3,
+          "play_name" : "Henry IV",
+          "speech_number" : "",
+          "line_number" : "",
+          "speaker" : "",
+          "text_entry" : "Enter KING HENRY, LORD JOHN OF LANCASTER, the EARL of WESTMORELAND, SIR WALTER BLUNT, and others"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 4,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.1",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "So shaken as we are, so wan with care,"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 5,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.2",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "Find we a time for frighted peace to pant,"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 6,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.3",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "And breathe short-winded accents of new broils"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 7,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.4",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "To be commenced in strands afar remote."
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 8,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.5",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "No more the thirsty entrance of this soil"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 9,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.6",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "Shall daub her lips with her own childrens blood;"
+        }
+      },
+      {
+        "_index" : "shakespeare",
+        "_type" : "_doc",
+        "_id" : "9",
+        "_score" : 1.0,
+        "_source" : {
+          "type" : "line",
+          "line_id" : 10,
+          "play_name" : "Henry IV",
+          "speech_number" : 1,
+          "line_number" : "1.1.7",
+          "speaker" : "KING HENRY IV",
+          "text_entry" : "Nor more shall trenching war channel her fields,"
+        }
+      }
+    ]
+  }
+}
+
+Defaults max no of documents hits 100000. DO cat/indices to count of documents
+
+
