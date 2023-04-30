@@ -1,8 +1,10 @@
-Aliased are another name of index.
+# Aliased are another name of index.
 
-Aliases are pointed to subset of filter index.
+___
+#### Aliases Can map a single index with multiple aliases
 
 
+````
 POST _aliases
 {
   "actions": [
@@ -14,15 +16,23 @@ POST _aliases
     }
   ]
 }
+````
 
+###### Output
+````
 {
   "acknowledged" : true
 }
+````
+#### Check the aliases how it will update the index mappings
 
-
+````
 GET bank
+````
 
+###### Output
 
+````
 {
   "bank" : {
     "aliases" : {
@@ -128,10 +138,17 @@ GET bank
   }
 }
 
+````
 
+#### Check accounts index
 
+````
 GET accounts
+````
 
+###### Output
+
+````
 
 {
   "bank" : {
@@ -238,9 +255,16 @@ GET accounts
   }
 }
 
+````
 
+#### Check the aliases bank and account documents
+
+````
 GET bank/_doc/1
+````
+###### Output
 
+````
 {
   "_index" : "bank",
   "_type" : "_doc",
@@ -263,10 +287,14 @@ GET bank/_doc/1
     "state" : "IL"
   }
 }
+````
 
-
+````
 GET accounts/_doc/1
+````
+###### Output
 
+````
 
 {
   "_index" : "bank",
@@ -291,7 +319,9 @@ GET accounts/_doc/1
   }
 }
 
-
+````
+#### remove aliases
+````
 POST _aliases
 {
   "actions": [
@@ -304,16 +334,23 @@ POST _aliases
   ]
 }
 
+````
+###### Output
+
+````
 {
   "acknowledged" : true
 }
 
-Multiple Add and removes can be done in same alias Call.
+````
+##### Note Multiple Add and removes can be done in same alias Call.
 
-
+````
 GET bank
+````
+###### Output
 
-
+````
 {
   "bank" : {
     "aliases" : { },
@@ -418,10 +455,17 @@ GET bank
 }
 
 
+````
+
+#### Check after removing aliases
+````
 
 GET bank/_doc/1
+````
 
+###### Output
 
+````
 {
   "_index" : "bank",
   "_type" : "_doc",
@@ -445,10 +489,12 @@ GET bank/_doc/1
   }
 }
 
-
+````
+````
 GET accounts/_doc/1
 
-
+````
+````
 {
   "error" : {
     "root_cause" : [
@@ -471,7 +517,9 @@ GET accounts/_doc/1
   "status" : 404
 }
 
+````
 
+````
 POST _aliases
 {
   "actions": [
@@ -495,14 +543,24 @@ POST _aliases
     }
   ]
 }
+````
 
+##### output
+
+````
 {
   "acknowledged" : true
 }
 
+````
+
+#### Check Sample Data 
+````
 GET sample_data
+````
+##### output
 
-
+````
 {
   "bank" : {
     "aliases" : {
@@ -1052,17 +1110,25 @@ GET sample_data
   }
 }
 
+````
 
+##### Check index
+````
 GET _cat/indices?v
+````
 
+##### output
 
+````
 health status index       uuid                   pri rep docs.count docs.deleted store.size pri.store.size
 green  open   bank        AHpo0TpiR2mi7kgPdR5OHg   1   1       1000            0    758.6kb        379.3kb
 green  open   shakespeare Sl91jFdgR5SNguBJINnRIg   1   1      28755            0      9.7mb          4.8mb
 green  open   .kibana_1   mym8BrtmSBu6-rh9AISQ9A   1   1         57            1    133.5kb         60.1kb
 green  open   logs        r5HFUBA2QW-LXnWkXjDsXA   1   1       2106            0     13.8mb          6.9mb
+````
 
-
+##### Filter and make an aliases
+````
 POST _aliases
 {
   "actions": [
@@ -1079,14 +1145,23 @@ POST _aliases
     }
   ]
 }
+````
+##### output
+
+````
 
 {
   "acknowledged" : true
 }
+````
 
-
+#### Check shakespeare index
+````
 GET shakespeare/_search
+````
+##### output
 
+````
 {
   "took" : 68,
   "timed_out" : false,
@@ -1431,9 +1506,16 @@ GET Henry_IV/_search
   }
 }
 
+````
 
+#### Check Henery IV results
+
+````
 GET Henry_IV
+````
 
+##### output
+````
 {
   "shakespeare" : {
     "aliases" : {
@@ -1504,6 +1586,6 @@ GET Henry_IV
   }
 }
 
-
+````
 
 
