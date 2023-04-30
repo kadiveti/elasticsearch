@@ -1,10 +1,12 @@
-We can roll over index on daily basis or Weekly basis.
+# Index Template
 
-It helps to remove the index which are not much useful.
+##### We can roll over index on daily basis or Weekly basis.
 
-Like you can roll over index on daily basis and remove the index which are not in use.
+##### It helps to remove the index which are not much useful.
 
+##### Like you can roll over index on daily basis and remove the index which are not in use.
 
+````
 PUT logs-2020-04-01
 PUT logs-2020-04-02
 PUT logs-2020-04-03
@@ -12,9 +14,9 @@ PUT logs-2020-04-04
 PUT logs-2020-04-05
 PUT logs-2020-04-06
 PUT logs-2020-04-07
-
-We can also roll over the index on size basis as well.
-
+````
+##### We can also roll over the index on size basis as well.
+````
 PUT logs-01
 PUT logs-02
 PUT logs-03
@@ -22,8 +24,8 @@ PUT logs-04
 PUT logs-05
 PUT logs-06
 PUT logs-07
-
-
+````
+````
 PUT _template/logs
 {
   "aliases": {
@@ -42,24 +44,31 @@ PUT _template/logs
   },
   "index_patterns": ["logs-*"]
 }
+````
+##### output
 
-
+````
 {
   "acknowledged" : true
 }
+````
+##### Note: Aliases should not match existing index name
 
-Note: Aliases should not match existing index name
-
+````
 PUT logs-2020-04-01
-
+````
+##### output
+````
 {
   "acknowledged" : true,
   "shards_acknowledged" : true,
   "index" : "logs-2020-04-01"
 }
-
+````
+````
 GET log_sample
-
+````
+````
 {
   "logs-2020-04-01" : {
     "aliases" : {
@@ -110,5 +119,5 @@ GET log_sample
     }
   }
 }
-
+````
 
