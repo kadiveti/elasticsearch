@@ -356,8 +356,57 @@ GET bank/_search
 }
 
 ````
+````
+PUT _ingest/pipeline/test-piplein
+{
+  "description": "Some description",
+  "processors": [
+    {
+      "remove": {
+        "field": "account_number"
+      }
+    },
+    {
+       "set": {
+        "field": "_source.fullname"
+        , "value": "{{_source.firstname}} {{_source.lastname}}"
+      }
+    },
+      {
+        "script": {
+          "lang": "painless",
+          "source": """
+          if (ctx.gender == "M") {
+            ctx.gender = "male"
+          } else {
+            ctx.gender = "female"
+          }
+          """
+        }
+        
+      }
+  ]
+}
+````
+````
+elasticsearch.yml
 
+node.ingest = true
 
+restart elasticsearch
+````
+````
 
+POST _reindex
+{
+    "source" : {
+        "index": "bank
+    },
+    "dest" : {
+       "index": "bank_pipeline",
+       "pipeline": "test_pipeline
+    }
+}
+````
 
 
