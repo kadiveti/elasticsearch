@@ -464,7 +464,9 @@ GET sample-1
   }
 }
 ````
-
+````
+###### Script Update using post
+````
 
 POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
 {
