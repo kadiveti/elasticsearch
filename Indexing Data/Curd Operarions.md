@@ -496,6 +496,7 @@ POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
 }
 
 ````
+````
 GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
 
 {
@@ -503,9 +504,11 @@ GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
   "secondname" : "kadiveti"
 }
 
-
+````
+````
 DELETE sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
-
+````
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
@@ -520,14 +523,17 @@ DELETE sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
   "_seq_no" : 4,
   "_primary_term" : 1
 }
-
-
+````
+###### Get the details 
+````
 GET sample-1/_doc/-WFVoYcBOj-cH8rtrEuz
-
+````
+###### output
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
   "_id" : "-WFVoYcBOj-cH8rtrEuz",
   "found" : false
 }
-
+````
