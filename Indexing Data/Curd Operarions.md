@@ -467,7 +467,7 @@ GET sample-1
 ````
 ###### Script Update using post
 ````
-
+````
 POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
 {
   "script":{
@@ -475,7 +475,11 @@ POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
     "source": "ctx._source.remove('middlename')"
   }
 }
-
+````
+````
+###### output
+````
+````
 {
   "_index" : "sample-1",
   "_type" : "_doc",
@@ -491,7 +495,7 @@ POST sample-1/_update/-WFVoYcBOj-cH8rtrEuz
   "_primary_term" : 1
 }
 
-
+````
 GET sample-1/_source/-WFVoYcBOj-cH8rtrEuz
 
 {
